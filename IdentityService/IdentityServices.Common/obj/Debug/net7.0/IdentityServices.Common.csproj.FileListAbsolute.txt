@@ -1,0 +1,11 @@
+/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/bin/Debug/net7.0/IdentityServices.Common.deps.json
+/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/bin/Debug/net7.0/IdentityServices.Common.dll
+/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/bin/Debug/net7.0/IdentityServices.Common.pdb
+/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/obj/Debug/net7.0/IdentityServices.Common.GeneratedMSBuildEditorConfig.editorconfig
+/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/obj/Debug/net7.0/IdentityServices.Common.AssemblyInfoInputs.cache
+/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/obj/Debug/net7.0/IdentityServices.Common.AssemblyInfo.cs
+/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/obj/Debug/net7.0/IdentityServices.Common.csproj.CoreCompileInputs.cache
+/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/obj/Debug/net7.0/IdentityServices.Common.dll
+/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/obj/Debug/net7.0/refint/IdentityServices.Common.dll
+/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/obj/Debug/net7.0/IdentityServices.Common.pdb
+/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/obj/Debug/net7.0/ref/IdentityServices.Common.dll

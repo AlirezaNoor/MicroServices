@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/alireza/project/Microservices/CatalogService/CatalogService.Domain/CatalogService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alireza/project/Microservices/CatalogService/CatalogService.Domain/CatalogService.Domain.csproj",
+        "projectName": "CatalogService.Domain",
+        "projectPath": "/home/alireza/project/Microservices/CatalogService/CatalogService.Domain/CatalogService.Domain.csproj",
+        "packagesPath": "/home/alireza/.nuget/packages/",
+        "outputPath": "/home/alireza/project/Microservices/CatalogService/CatalogService.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alireza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/244/sdk/7.0.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj",
+        "projectName": "CatalogService.Infrastructure",
+        "projectPath": "/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj",
+        "packagesPath": "/home/alireza/.nuget/packages/",
+        "outputPath": "/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alireza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/alireza/project/Microservices/CatalogService/CatalogService.Domain/CatalogService.Domain.csproj": {
+                "projectPath": "/home/alireza/project/Microservices/CatalogService/CatalogService.Domain/CatalogService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/244/sdk/7.0.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

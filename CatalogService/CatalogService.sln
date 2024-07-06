@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService", "CatalogService\CatalogService.csproj", "{6163DC77-14AD-43ED-809F-AC3DCD8781A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.Domain", "CatalogService.Domain\CatalogService.Domain.csproj", "{EFF89362-24C4-405A-A965-54DE4ACF26AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.Infrastructure", "CatalogService.Infrastructure\CatalogService.Infrastructure.csproj", "{E8FA38C4-3DF0-4898-8CE8-8203BDE6D9C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.ApplicationContract", "CatalogService.ApplicationContract\CatalogService.ApplicationContract.csproj", "{0F101247-A303-42E3-AEDC-0409CA6AF6DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.Application", "CatalogService.Application\CatalogService.Application.csproj", "{046960AF-E882-44C0-85F5-3395DF6ABB70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.Comman", "CatalogService.Comman\CatalogService.Comman.csproj", "{2F34406C-975B-41A1-8F1C-96CDDCA68E02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6163DC77-14AD-43ED-809F-AC3DCD8781A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6163DC77-14AD-43ED-809F-AC3DCD8781A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6163DC77-14AD-43ED-809F-AC3DCD8781A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6163DC77-14AD-43ED-809F-AC3DCD8781A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFF89362-24C4-405A-A965-54DE4ACF26AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF89362-24C4-405A-A965-54DE4ACF26AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF89362-24C4-405A-A965-54DE4ACF26AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF89362-24C4-405A-A965-54DE4ACF26AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FA38C4-3DF0-4898-8CE8-8203BDE6D9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FA38C4-3DF0-4898-8CE8-8203BDE6D9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FA38C4-3DF0-4898-8CE8-8203BDE6D9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FA38C4-3DF0-4898-8CE8-8203BDE6D9C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F101247-A303-42E3-AEDC-0409CA6AF6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F101247-A303-42E3-AEDC-0409CA6AF6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F101247-A303-42E3-AEDC-0409CA6AF6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F101247-A303-42E3-AEDC-0409CA6AF6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046960AF-E882-44C0-85F5-3395DF6ABB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046960AF-E882-44C0-85F5-3395DF6ABB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046960AF-E882-44C0-85F5-3395DF6ABB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046960AF-E882-44C0-85F5-3395DF6ABB70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F34406C-975B-41A1-8F1C-96CDDCA68E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F34406C-975B-41A1-8F1C-96CDDCA68E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F34406C-975B-41A1-8F1C-96CDDCA68E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F34406C-975B-41A1-8F1C-96CDDCA68E02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

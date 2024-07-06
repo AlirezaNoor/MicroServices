@@ -1,0 +1,49 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/Auth/Check",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5048
+        }
+      ],
+      "UpstreamPathTemplate": "/check",
+      "UpstreamHttpMethod": [ "GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/Auth/login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5048
+        }
+      ],
+      "UpstreamPathTemplate": "/login",
+      "UpstreamHttpMethod": [ "Post" ]
+ 
+    },
+    {
+      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5049
+        }
+      ],
+      "UpstreamPathTemplate": "/Test",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "IdentityApiKey",
+        "AllowedScopes": []
+      }
+
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5253"
+  }
+}

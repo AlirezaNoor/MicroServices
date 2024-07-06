@@ -1,0 +1,17 @@
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/bin/Debug/net7.0/IdentityService.Domain.deps.json
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/bin/Debug/net7.0/IdentityService.Domain.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/bin/Debug/net7.0/IdentityService.Domain.pdb
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/obj/Debug/net7.0/IdentityService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/obj/Debug/net7.0/IdentityService.Domain.AssemblyInfoInputs.cache
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/obj/Debug/net7.0/IdentityService.Domain.AssemblyInfo.cs
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/obj/Debug/net7.0/IdentityService.Domain.csproj.CoreCompileInputs.cache
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/obj/Debug/net7.0/IdentityService.Domain.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/obj/Debug/net7.0/refint/IdentityService.Domain.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/obj/Debug/net7.0/IdentityService.Domain.pdb
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/obj/Debug/net7.0/ref/IdentityService.Domain.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/bin/Debug/net7.0/IdentityService.ApplicationContract.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/bin/Debug/net7.0/IdentityServices.Common.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/bin/Debug/net7.0/IdentityService.ApplicationContract.pdb
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/bin/Debug/net7.0/IdentityServices.Common.pdb
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/obj/Debug/net7.0/IdentityService.Domain.csproj.AssemblyReference.cache
+/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/obj/Debug/net7.0/IdentityService.Domain.csproj.CopyComplete

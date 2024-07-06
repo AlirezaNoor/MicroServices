@@ -1,0 +1,15 @@
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/bin/Debug/net7.0/IdentityService.ApplicationContract.deps.json
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/bin/Debug/net7.0/IdentityService.ApplicationContract.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/bin/Debug/net7.0/IdentityService.ApplicationContract.pdb
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/bin/Debug/net7.0/IdentityServices.Common.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/bin/Debug/net7.0/IdentityServices.Common.pdb
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/obj/Debug/net7.0/IdentityService.ApplicationContract.csproj.AssemblyReference.cache
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/obj/Debug/net7.0/IdentityService.ApplicationContract.GeneratedMSBuildEditorConfig.editorconfig
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/obj/Debug/net7.0/IdentityService.ApplicationContract.AssemblyInfoInputs.cache
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/obj/Debug/net7.0/IdentityService.ApplicationContract.AssemblyInfo.cs
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/obj/Debug/net7.0/IdentityService.ApplicationContract.csproj.CoreCompileInputs.cache
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/obj/Debug/net7.0/IdentityService.ApplicationContract.csproj.CopyComplete
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/obj/Debug/net7.0/IdentityService.ApplicationContract.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/obj/Debug/net7.0/refint/IdentityService.ApplicationContract.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/obj/Debug/net7.0/IdentityService.ApplicationContract.pdb
+/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/obj/Debug/net7.0/ref/IdentityService.ApplicationContract.dll

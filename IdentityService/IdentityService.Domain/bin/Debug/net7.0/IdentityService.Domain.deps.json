@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "IdentityService.Domain/1.0.0": {
+        "dependencies": {
+          "IdentityService.ApplicationContract": "1.0.0"
+        },
+        "runtime": {
+          "IdentityService.Domain.dll": {}
+        }
+      },
+      "IdentityService.ApplicationContract/1.0.0": {
+        "dependencies": {
+          "IdentityServices.Common": "1.0.0"
+        },
+        "runtime": {
+          "IdentityService.ApplicationContract.dll": {}
+        }
+      },
+      "IdentityServices.Common/1.0.0": {
+        "runtime": {
+          "IdentityServices.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IdentityService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IdentityService.ApplicationContract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IdentityServices.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/alireza/project/Microservices/IdentityService/IdentityService/IdentityService.csproj": {}
+  },
+  "projects": {
+    "/home/alireza/project/Microservices/IdentityService/IdentityService.Application/IdentityService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alireza/project/Microservices/IdentityService/IdentityService.Application/IdentityService.Application.csproj",
+        "projectName": "IdentityService.Application",
+        "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentityService.Application/IdentityService.Application.csproj",
+        "packagesPath": "/home/alireza/.nuget/packages/",
+        "outputPath": "/home/alireza/project/Microservices/IdentityService/IdentityService.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alireza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/IdentityService.ApplicationContract.csproj": {
+                "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/IdentityService.ApplicationContract.csproj"
+              },
+              "/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/IdentityService.Domain.csproj": {
+                "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/IdentityService.Domain.csproj"
+              },
+              "/home/alireza/project/Microservices/IdentityService/IdentiyService.Infrustructure/IdentiyService.Infrustructure.csproj": {
+                "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentiyService.Infrustructure/IdentiyService.Infrustructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/244/sdk/7.0.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/IdentityService.ApplicationContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/IdentityService.ApplicationContract.csproj",
+        "projectName": "IdentityService.ApplicationContract",
+        "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/IdentityService.ApplicationContract.csproj",
+        "packagesPath": "/home/alireza/.nuget/packages/",
+        "outputPath": "/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alireza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/IdentityServices.Common.csproj": {
+                "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/IdentityServices.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/244/sdk/7.0.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/IdentityService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/IdentityService.Domain.csproj",
+        "projectName": "IdentityService.Domain",
+        "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/IdentityService.Domain.csproj",
+        "packagesPath": "/home/alireza/.nuget/packages/",
+        "outputPath": "/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alireza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/IdentityService.ApplicationContract.csproj": {
+                "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/IdentityService.ApplicationContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/244/sdk/7.0.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alireza/project/Microservices/IdentityService/IdentityService/IdentityService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alireza/project/Microservices/IdentityService/IdentityService/IdentityService.csproj",
+        "projectName": "IdentityService",
+        "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentityService/IdentityService.csproj",
+        "packagesPath": "/home/alireza/.nuget/packages/",
+        "outputPath": "/home/alireza/project/Microservices/IdentityService/IdentityService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alireza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/alireza/project/Microservices/IdentityService/IdentityService.Application/IdentityService.Application.csproj": {
+                "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentityService.Application/IdentityService.Application.csproj"
+              },
+              "/home/alireza/project/Microservices/IdentityService/IdentiyService.Infrustructure/IdentiyService.Infrustructure.csproj": {
+                "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentiyService.Infrustructure/IdentiyService.Infrustructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/244/sdk/7.0.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/IdentityServices.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/IdentityServices.Common.csproj",
+        "projectName": "IdentityServices.Common",
+        "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/IdentityServices.Common.csproj",
+        "packagesPath": "/home/alireza/.nuget/packages/",
+        "outputPath": "/home/alireza/project/Microservices/IdentityService/IdentityServices.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alireza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/244/sdk/7.0.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alireza/project/Microservices/IdentityService/IdentiyService.Infrustructure/IdentiyService.Infrustructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alireza/project/Microservices/IdentityService/IdentiyService.Infrustructure/IdentiyService.Infrustructure.csproj",
+        "projectName": "IdentiyService.Infrustructure",
+        "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentiyService.Infrustructure/IdentiyService.Infrustructure.csproj",
+        "packagesPath": "/home/alireza/.nuget/packages/",
+        "outputPath": "/home/alireza/project/Microservices/IdentityService/IdentiyService.Infrustructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alireza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/IdentityService.ApplicationContract.csproj": {
+                "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentityService.ApplicationContract/IdentityService.ApplicationContract.csproj"
+              },
+              "/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/IdentityService.Domain.csproj": {
+                "projectPath": "/home/alireza/project/Microservices/IdentityService/IdentityService.Domain/IdentityService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/244/sdk/7.0.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
