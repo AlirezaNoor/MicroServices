@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XBuEezUdAVnIsItEsZHQ1BLHcpJZM6lneJicHlesm8hX2sMxAAtFcALtkin+E1fy5EAftsSQbFulXzJLMDh68Q==",
+  "dgSpecHash": "EfE5xbAdJFSDpbr93KpzsQZDSfuJvk3GvthuSe+2amFj+RZM8DP7xaocGIZiVPHgITiPQEqzSG1TG9v7jj2wIQ==",
   "success": true,
   "projectFilePath": "/home/alireza/project/Microservices/CatalogService/CatalogService/CatalogService.csproj",
   "expectedPackageFiles": [
@@ -25,11 +25,16 @@
     "/home/alireza/.nuget/packages/microsoft.extensions.logging.abstractions/3.0.3/microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
     "/home/alireza/.nuget/packages/microsoft.extensions.options/3.0.3/microsoft.extensions.options.3.0.3.nupkg.sha512",
     "/home/alireza/.nuget/packages/microsoft.extensions.primitives/3.0.3/microsoft.extensions.primitives.3.0.3.nupkg.sha512",
+    "/home/alireza/.nuget/packages/microsoft.identitymodel.abstractions/7.6.2/microsoft.identitymodel.abstractions.7.6.2.nupkg.sha512",
+    "/home/alireza/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.6.2/microsoft.identitymodel.jsonwebtokens.7.6.2.nupkg.sha512",
+    "/home/alireza/.nuget/packages/microsoft.identitymodel.logging/7.6.2/microsoft.identitymodel.logging.7.6.2.nupkg.sha512",
+    "/home/alireza/.nuget/packages/microsoft.identitymodel.tokens/7.6.2/microsoft.identitymodel.tokens.7.6.2.nupkg.sha512",
     "/home/alireza/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
     "/home/alireza/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/home/alireza/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/home/alireza/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "/home/alireza/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/home/alireza/.nuget/packages/system.identitymodel.tokens.jwt/7.6.2/system.identitymodel.tokens.jwt.7.6.2.nupkg.sha512",
     "/home/alireza/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []

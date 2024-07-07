@@ -1,0 +1,11 @@
+/home/alireza/project/Microservices/CatalogService/CatalogService.Application/bin/Debug/net7.0/CatalogService.Application.deps.json
+/home/alireza/project/Microservices/CatalogService/CatalogService.Application/bin/Debug/net7.0/CatalogService.Application.dll
+/home/alireza/project/Microservices/CatalogService/CatalogService.Application/bin/Debug/net7.0/CatalogService.Application.pdb
+/home/alireza/project/Microservices/CatalogService/CatalogService.Application/obj/Debug/net7.0/CatalogService.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/alireza/project/Microservices/CatalogService/CatalogService.Application/obj/Debug/net7.0/CatalogService.Application.AssemblyInfoInputs.cache
+/home/alireza/project/Microservices/CatalogService/CatalogService.Application/obj/Debug/net7.0/CatalogService.Application.AssemblyInfo.cs
+/home/alireza/project/Microservices/CatalogService/CatalogService.Application/obj/Debug/net7.0/CatalogService.Application.csproj.CoreCompileInputs.cache
+/home/alireza/project/Microservices/CatalogService/CatalogService.Application/obj/Debug/net7.0/CatalogService.Application.dll
+/home/alireza/project/Microservices/CatalogService/CatalogService.Application/obj/Debug/net7.0/refint/CatalogService.Application.dll
+/home/alireza/project/Microservices/CatalogService/CatalogService.Application/obj/Debug/net7.0/CatalogService.Application.pdb
+/home/alireza/project/Microservices/CatalogService/CatalogService.Application/obj/Debug/net7.0/ref/CatalogService.Application.dll

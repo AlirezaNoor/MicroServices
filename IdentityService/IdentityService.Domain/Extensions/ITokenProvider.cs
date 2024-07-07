@@ -4,5 +4,5 @@ namespace IdentityService.Domain.Extensions;
 
 public interface ITokenProvider
 {
-    Task<string> TokenGenator(loginUser login);
+    Task<string> TokenGenator(loginUser login ,string userid);
 }

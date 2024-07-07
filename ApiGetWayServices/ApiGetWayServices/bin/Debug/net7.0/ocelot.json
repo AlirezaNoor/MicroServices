@@ -2,11 +2,11 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/Auth/Check",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5048
+          "Port": 7210
         }
       ],
       "UpstreamPathTemplate": "/check",
@@ -14,11 +14,11 @@
     },
     {
       "DownstreamPathTemplate": "/Auth/login",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5048
+          "Port": 7210
         }
       ],
       "UpstreamPathTemplate": "/login",
@@ -27,11 +27,11 @@
     },
     {
       "DownstreamPathTemplate": "/WeatherForecast",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5049
+          "Port": 7296
         }
       ],
       "UpstreamPathTemplate": "/Test",

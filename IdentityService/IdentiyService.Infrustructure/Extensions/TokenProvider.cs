@@ -9,7 +9,7 @@ namespace IdentiyService.Infrustructure.Extensions;
 
 public class TokenProvider : ITokenProvider
 {
-    public async Task<string> TokenGenator(loginUser login)
+    public async Task<string> TokenGenator(loginUser login, string userid)
     {
         var tokenHandler = new JwtSecurityTokenHandler();
         var key = Encoding.ASCII.GetBytes(":1YU_hq%cPU*9Sf\"]Z2zPh5~}(ig(ziPcP.xEk6q]BC3rOnemUBi9+*,tUEWe^F");
@@ -17,7 +17,8 @@ public class TokenProvider : ITokenProvider
         {
             Subject = new ClaimsIdentity(new Claim[]
             {
-                new Claim(ClaimTypes.Name, login.username)
+                new Claim(ClaimTypes.Name, login.username),
+                new Claim("userId", userid.ToString())
             }),
             Expires = DateTime.UtcNow.AddHours(1),
             SigningCredentials =

@@ -1,0 +1,2 @@
+obj/Debug/net7.0/Protos/Permission.cs \
+obj/Debug/net7.0/Protos/PermissionGrpc.cs: Protos/permission.proto

@@ -38,3 +38,8 @@
 /home/alireza/project/Microservices/CatalogService/CatalogService/bin/Debug/net7.0/Grpc.Net.Client.dll
 /home/alireza/project/Microservices/CatalogService/CatalogService/bin/Debug/net7.0/Grpc.Net.ClientFactory.dll
 /home/alireza/project/Microservices/CatalogService/CatalogService/bin/Debug/net7.0/Grpc.Net.Common.dll
+/home/alireza/project/Microservices/CatalogService/CatalogService/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/home/alireza/project/Microservices/CatalogService/CatalogService/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/alireza/project/Microservices/CatalogService/CatalogService/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/home/alireza/project/Microservices/CatalogService/CatalogService/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/home/alireza/project/Microservices/CatalogService/CatalogService/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll

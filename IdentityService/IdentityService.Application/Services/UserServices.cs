@@ -48,7 +48,7 @@ public class UserServices:IUserServices
             };
         }
 
-        var token = await _tokenProvider.TokenGenator(login);
+        var token = await _tokenProvider.TokenGenator(login, user.Id.Value.ToString());
 
         
         return new BaseResponse<UserDto>()

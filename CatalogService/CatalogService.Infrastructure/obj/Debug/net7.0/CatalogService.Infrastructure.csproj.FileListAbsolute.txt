@@ -1,0 +1,17 @@
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/bin/Debug/net7.0/CatalogService.Infrastructure.deps.json
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/bin/Debug/net7.0/CatalogService.Infrastructure.runtimeconfig.json
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/bin/Debug/net7.0/CatalogService.Infrastructure.dll
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/bin/Debug/net7.0/CatalogService.Infrastructure.pdb
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/bin/Debug/net7.0/CatalogService.Domain.dll
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/bin/Debug/net7.0/CatalogService.Domain.pdb
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/obj/Debug/net7.0/CatalogService.Infrastructure.csproj.AssemblyReference.cache
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/obj/Debug/net7.0/CatalogService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/obj/Debug/net7.0/CatalogService.Infrastructure.AssemblyInfoInputs.cache
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/obj/Debug/net7.0/CatalogService.Infrastructure.AssemblyInfo.cs
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/obj/Debug/net7.0/CatalogService.Infrastructure.csproj.CoreCompileInputs.cache
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/obj/Debug/net7.0/CatalogService.Infrastructure.csproj.CopyComplete
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/obj/Debug/net7.0/CatalogService.Infrastructure.dll
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/obj/Debug/net7.0/refint/CatalogService.Infrastructure.dll
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/obj/Debug/net7.0/CatalogService.Infrastructure.pdb
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/obj/Debug/net7.0/CatalogService.Infrastructure.genruntimeconfig.cache
+/home/alireza/project/Microservices/CatalogService/CatalogService.Infrastructure/obj/Debug/net7.0/ref/CatalogService.Infrastructure.dll
