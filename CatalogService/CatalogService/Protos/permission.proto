@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "CatalogService.Protos";
+
+service Permission {
+  rpc CheckPermission (CheckPermissionRequest) returns (CheckPermissionResponse);
+}
+
+message CheckPermissionRequest {
+  string userid = 1;
+  string permission = 2;
+  string applicationid=3;
+}
+message CheckPermissionResponse {
+  bool allowed = 1;
+}

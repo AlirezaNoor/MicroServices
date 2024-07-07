@@ -60,3 +60,10 @@
 /home/alireza/project/Microservices/IdentityService/IdentityService/bin/Debug/net7.0/IdentityService.Application.pdb
 /home/alireza/project/Microservices/IdentityService/IdentityService/bin/Debug/net7.0/IdentityService.ApplicationContract.pdb
 /home/alireza/project/Microservices/IdentityService/IdentityService/bin/Debug/net7.0/IdentityServices.Common.pdb
+/home/alireza/project/Microservices/IdentityService/IdentityService/bin/Debug/net7.0/Google.Protobuf.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService/bin/Debug/net7.0/Grpc.AspNetCore.Server.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService/bin/Debug/net7.0/Grpc.AspNetCore.Server.ClientFactory.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService/bin/Debug/net7.0/Grpc.Core.Api.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService/bin/Debug/net7.0/Grpc.Net.Client.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService/bin/Debug/net7.0/Grpc.Net.ClientFactory.dll
+/home/alireza/project/Microservices/IdentityService/IdentityService/bin/Debug/net7.0/Grpc.Net.Common.dll
