@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7210
+          "Port": 7024
         }
       ],
       "UpstreamPathTemplate": "/check",
@@ -18,7 +18,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7210
+          "Port": 7024
         }
       ],
       "UpstreamPathTemplate": "/login",
@@ -31,7 +31,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7296
+          "Port": 7297
         }
       ],
       "UpstreamPathTemplate": "/Test",
@@ -44,6 +44,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5253"
+    "BaseUrl": "http://localhost:5103"
   }
 }
