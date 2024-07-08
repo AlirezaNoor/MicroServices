@@ -11,6 +11,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddGrpcClient<Permission.PermissionClient>(o =>
 {
     o.Address = new Uri(builder.Configuration["GRPC_SERVER_ADDRESS"]);
+}).ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
+{
+    ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
 });
 var app = builder.Build();
 

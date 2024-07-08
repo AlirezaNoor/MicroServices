@@ -4,7 +4,7 @@ using IdentityService.Configuration;
 using IdentiyService.Infrustructure.DependecyEnjection;
 
 var builder = WebApplication.CreateBuilder(args);
-
+ 
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -32,10 +32,11 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 
-app.MapControllers();
+
 
 app.UseEndpoints(endpoints =>
 {
+    endpoints.MapControllers();
     endpoints.MapGrpcService<PermissionService>();
 });
 
