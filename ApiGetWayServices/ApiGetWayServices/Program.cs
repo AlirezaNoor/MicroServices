@@ -1,4 +1,7 @@
+using System.Text;
 using IdentityService.Configuration;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 
@@ -14,9 +17,28 @@ builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange
 builder.Services.AddOcelot(builder.Configuration);
 
 
-builder.Services.JWTConfigration(builder.Configuration);
+ 
+var authenticationProviderKey = "IdentityApiKey";
+var jwtSettings =builder. Configuration.GetSection("Jwt");
+var secretKey = jwtSettings["Secret"];
+var key = Encoding.ASCII.GetBytes(secretKey);
 
-
+builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(authenticationProviderKey,x =>
+{
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateIssuer = false,
+        ValidateAudience = false
+    };
+});
 
 
 var app = builder.Build();
@@ -31,6 +53,7 @@ if (
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();  // اضافه کردن Middleware احراز هویت
 app.UseAuthorization();
 
 app.MapControllers();

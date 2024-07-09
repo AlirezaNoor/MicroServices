@@ -25,18 +25,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
-app.UseRouting(); // UseRouting باید قبل از UseEndpoints فراخوانی شود
- 
+app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-
-
+app.MapControllers();
 
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllers();
     endpoints.MapGrpcService<PermissionService>();
 });
 

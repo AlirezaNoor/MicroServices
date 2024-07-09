@@ -27,11 +27,11 @@
     },
     {
       "DownstreamPathTemplate": "/WeatherForecast",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7297
+          "Port": 5297
         }
       ],
       "UpstreamPathTemplate": "/Test",
@@ -44,6 +44,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5103"
+    "BaseUrl": "https://localhost:5253"
   }
 }
